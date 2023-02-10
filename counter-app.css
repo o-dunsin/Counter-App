@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    background-image: url(./mesh-472.png);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}   
+.block {
+    margin-top: 40px;
+    width: 400px;
+    height: 550px;
+    border: 10px solid rgb(110, 110, 110);
+    text-align: center;
+    justify-content: center;
+    
+}
+#welcome-el {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: cursive;
+    color: black;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: bold;
+    font-family: cursive;
+    color: rgb(34, 34, 34);
+}
+h2 {
+    margin: 0;
+    font-size: 70px;
+    font-weight: bold;
+    font-family: cursive;
+    color: black;
+}
+.count {
+    border: none;
+    border-radius: 5px;
+    width: 100px;
+    height: 40px;
+    background-color: rgb(223, 25, 25);
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+.count:active, .count:hover {
+    background-color: white;
+    color: rgb(223, 25, 25);
+    border: 2px solid rgb(145, 8, 8);
+}
+.save {     
+    border: none;
+    border-radius: 50%;
+    width: 75px;
+    height: 75px;
+    background-color:  white;
+    color: rgb(22, 168, 78);
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+.save:active, .save:hover {
+    background-color: rgb(22, 168, 78);
+    color: white;
+    
+}
+#entries-el {
+    font-size: 20px;
+    color: rgb(53, 7, 221);
+}
